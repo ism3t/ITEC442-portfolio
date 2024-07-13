@@ -1,0 +1,350 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ismet Mimar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <link rel="icon" href="images/chico.ico">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="script.js">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+    <div id="title">Ismet Mimar</div><br>
+    <div id="links">
+        <a href="#ABOUTME">About Me</a>
+        <a href="#CYBERSECURITY" style="margin:0px 60px;">Cyber Security</a>
+        <a href="#IOT">Internet of Things (IoT)</a>
+    </div>
+    </div>
+
+    <center>
+    <div id="middle">
+        <div id="tagline" class="animated zoomIn" style="animation-delay:1.8s;">
+        </div>
+    </div>
+    </center>
+    
+    <div id="portfolio">
+             <div id="ABOUTME">
+                 <h1>About Me</h1>   
+                 <div>
+                        <p>
+                          I was born on March 2, 2002, in London, United Kingdom. Shortly after my birth, 
+                          my family relocated to North Cyprus. Currently, I am a 21-year-old student pursuing 
+                          a degree in information technology at Eastern Mediterranean University. 
+                        </p>
+                 </div> 
+             </div>
+              <br><br><br><br>
+              <div id="CYBERSECURITY">
+                 <h1>Cyber Security</h1>
+                 <h2>Introduction of Cyber Security </h2>
+                 <div>Cybersecurity refers to the practice of protecting computer systems, networks, and data from unauthorized access,
+                     theft, damage, and other cyber threats. It involves implementing measures and technologies to ensure the confidentiality,
+                     integrity, and availability of information in digital form. Cybersecurity aims to prevent unauthorized access to sensitive data,
+                     safeguard against malware and viruses, detect and respond to security incidents, and maintain the overall security posture of an 
+                     organization or individual. It encompasses various strategies, including the use of firewalls, encryption, authentication, intrusion
+                     detection systems, and security awareness training, among others, to mitigate risks and ensure the security of digital assets. </div>
+                 <br><br>
+                  
+                  
+                 <div class="project">
+                 <h2>1-Scanning Activity</h2>
+                 <div>Scanning tools refer to software applications or utilities designed to probe, analyze, and gather information about computer networks, systems, or applications for security assessment purposes.</div> <br>
+                 <div><img src="images/trace.png" alt="traceroute" width="800" height="500"></div>
+                 <br>
+                 <div>Traceroute: Determines the number of hops from your machine to the assigned website.</div>
+                 <br>
+                 <div><img src="images/dig.png" alt="digns" width="800" height="500"></div>
+                 <br>
+                 <div>Dig: Retrieves the main nameservers for the website.</div>
+                 <br>
+                 <div><img src="images/nslook.png" alt="nslook" width="800" height="500"></div>
+                 <br>
+                 <div>Nslookup: Retrieves information about the website, including the MX record.</div>
+                 <br>
+                 <div><img src="images/whois.png" alt="whois" width="800" height="500"></div>
+                 <br>
+                 <div>WHOIS lookup: Obtains the registered contact information for the website.</div>
+                 <br><br>
+                 <h2>Questions</h2>
+                 <div>How many hops from your machine to your assigned website?</div>
+                 <div>-30 hops max</div><br>
+                 <div>Which step causes the biggest delay in the route? What is the average duration of thatdelay?</div>
+                 <div>-first step with 0.144ms</div><br>
+                 <div>What are the main nameservers for the website?</div>
+                 <div>-a.root-servers.net nstld.verisign-grs.com</div><br>
+                 <div>Who is the registered contact?</div>
+                 <div>-Internet Assigned Numbers Authority (IANA)</div><br>
+                 <div>What is the MX record for the website?</div>
+                 <div>-I got an error as "server can't find"</div><br>
+                 <div>Where is the website hosted? </div>
+                 <div>-Los Angeles</div>
+                 <br>
+                 <h2>Reflection</h2>
+                 <div>While doing this activity I learn that using scanning tools will be very beneficial for any kind of cyber activity and also I really enjoyed extracting usefull information with these tools. However, I could manage to find MX records. I tried couple of different domains but I always got the same error "server can't find".</div>
+                 </div>
+                 <br><br><br><br>
+                  
+                  
+                 <div class="project">
+                 <h2>2-Honeypot</h2>
+                     <div>A honeypot is a security mechanism that simulates a vulnerable system or network to lure potential attackers and gather information about their tactics and techniques.</div><br> 
+                     <div><img src="images/ifconfig.png" alt="ifconfig" width="800" height="500"></div>
+                     <br> 
+                     <div>ifconfig: is a command used to display the network interface configuration information on a Unix-like operating system.</div>
+                     <br> 
+                     <div><img src="images/pentboxrb.png" alt="pentboxrb" width="800" height="500"></div>
+                     <br> 
+                     <div>./pentbox.rb: is a command that is referencing the execution of a Ruby script named "pentbox.rb" within the current directory.</div>
+                     <br> 
+                     <div><img src="images/honneypot.png" alt="honneypot" width="800" height="500"></div>
+                     <br>
+                     <div>Setting up the Honeypot</div>
+                     <br> 
+                     <div><img src="images/confa.png" alt="confa" width="800" height="500"></div>
+                     <br> 
+                     <div>Connection Error</div>
+                     <br> 
+                     <div><img src="images/honnynotf.png" alt="honneynotf" width="800" height="500"></div>
+                     <br> 
+                     <div>Honeypot notification alert us that an intruder has been caught!</div>
+                     <br>
+                     <h2>Reflection</h2>
+                  <div>I always heard about honeypots but I was never understand them fully. Working on this activity helped me to really understand what is honeypot and why we are using it. It turns out that it was a bait for intuders to learn their ways and improve our system. while doing this project I realise that I didnt have the pentbox dictionary in my system. I downloaded it from <a href="https://github.com/technicaldada/pentbox">here.</a>  </div>
+                 <br><br><br><br>  
+                     
+                     
+                <div class="project">
+                 <h2>3-DDOS Attack</h2>
+                     <div>A DDoS (Distributed Denial of Service) attack is a malicious act in which multiple compromised computers overwhelm a target system with an excessive amount of traffic, rendering it inaccessible to legitimate users.</div>
+                     <br> 
+                     <div><img src="images/ping.png" alt="ping" width="800" height="500"></div>
+                     <br>
+                     <div>ping command can be used to find the ip address of desired domain</div>
+                     <br> 
+                     <div><img src="images/auxil.png" alt="auxi" width="800" height="500"></div>
+                     <br> 
+                     <div>use auxiliary/dos/tcp/synflood: is a module for SYN flood attacks, which inundate target systems with a high volume of SYN packets. (metasploit used in this picture)</div>
+                     <br> 
+                     <div><img src="images/eth.png" alt="eth0" width="800" height="500"></div>
+                     <br> 
+                     <div>"Wireshark eth0" captures and analyzes network traffic.</div>
+                     <br>
+                     <div><img src="images/sitecant.png" alt="cantreach" width="800" height="500"></div>
+                     <br> 
+                     <div>This site can't be reached.</div>
+                     <br>
+                     <h2>Reflection</h2>
+                  <div>Well in this activity I realize that doing denial of service attack was way more easy then I thought. I gain a bit of knowledge about metasploit and wireshark applications while working on this activity.</div>
+                 <br><br><br><br> 
+                    
+                    
+                     <div class="project">
+                 <h2>4-Digitalisation</h2>
+                     <div></div>
+                     <br> 
+                     <div>What is a 'fully digital enterprise'?</div><br><br>
+                     <div>  -A fully digital enterprise is an organization that has embraced digital technologies across all its operations, processes, and interactions. It relies on digital tools to automate and optimize its business processes, uses data analytics for decision-making, provides a seamless digital experience to customers, adapts quickly to market changes, fosters innovation, promotes collaboration, and prioritizes cybersecurity and data privacy. By going digital, businesses can streamline operations, improve efficiency, enhance customer experiences, and gain a competitive advantage.</div><br> 
+                     <br><div>What are the cyber Security challenges/concerns with a fully digital enterprise?</div><br><br>
+                     <div>  -The cybersecurity challenges in a fully digital enterprise include data breaches, malware attacks, insider threats, phishing, cloud security risks, compliance requirements, and a shortage of skilled cybersecurity professionals.</div><br> 
+                     <div>-Data breaches: The risk of data breaches increases as more data is generated and stored digitally. Cybercriminals may attempt to gain unauthorized access to sensitive customer information, intellectual property, or financial data, leading to financial losses and reputational damage.</div><br>
+                     <div>-Malware and ransomware attacks: Digital enterprises are vulnerable to malware and ransomware attacks, where malicious software is used to disrupt operations, steal data, or demand a ransom. Such attacks can cripple systems, cause financial losses, and disrupt business continuity.</div><br>
+                     <div>-Insider threats: While digital transformation brings numerous benefits, it also increases the risk of insider threats. Employees or contractors with access to sensitive data may intentionally or unintentionally misuse or leak it, leading to data breaches or other security incidents.</div><br>
+                     <div>-Phishing and social engineering: Cybercriminals often employ phishing techniques and social engineering tactics to deceive employees into revealing sensitive information or granting unauthorized access. These attacks can compromise security credentials and provide a gateway for further breaches.</div><br>
+                     <div>-Cloud security: Digital enterprises rely on cloud services for storage, processing, and collaboration. However, ensuring the security of cloud environments and data stored in the cloud can be challenging. Misconfigurations, weak access controls, or vulnerabilities in cloud infrastructure can expose sensitive data to unauthorized access.</div><br>
+                     <br><div>What are the cyber security challenges for a bricks and mortar SME wanting to become a digital enterprise?</div><br><br>
+                     <div>-Bricks and mortar SMEs transitioning to digital enterprises face cybersecurity challenges such as limited resources, lack of expertise, vulnerability to phishing and malware attacks, and compliance with data protection regulations.</div><br> 
+                     <div>-Adoption of new technologies: Incorporating digital technologies introduces new security risks as SMEs may lack the expertise or resources to properly assess and implement robust security measures for unfamiliar digital platforms and tools.</div><br> 
+                     <div>-Limited cybersecurity knowledge and awareness: SMEs often have limited resources and may not possess dedicated cybersecurity teams or personnel. This can lead to a lack of awareness about common cyber threats, best practices, and the importance of implementing strong security measures.</div><br>
+                     <div>-Budget constraints: SMEs typically have limited budgets allocated for cybersecurity, making it challenging to invest in comprehensive security solutions, technologies, and ongoing monitoring to effectively protect their digital assets.</div><br>
+                     <div>-Phishing and social engineering attacks: SMEs may be targeted by phishing attacks, where cybercriminals trick employees into divulging sensitive information or granting unauthorized access. The lack of cybersecurity awareness and training makes SMEs more susceptible to such social engineering tactics.</div><br>
+                     <div>-Vulnerability to ransomware and malware: Ransomware attacks, where malicious software encrypts critical data and demands a ransom for its release, can significantly disrupt SME operations. The limited resources and backup capabilities of SMEs make them attractive targets for cybercriminals.</div><br>
+                     <div>-Third-party risks: As SMEs embrace digital transformation, they may rely on third-party vendors or service providers for digital solutions, such as cloud services or e-commerce platforms. However, inadequate security measures by these external entities can introduce vulnerabilities into the SME's digital infrastructure.</div><br>
+                     <br><div>Do you agree with the views expressed, especially in light of the 'energy crisis' experienced worldwide in 2022</div><br><br>
+                     <div>  -Energy distribution and sourcing could be made better through the use of data from all over the digital industry; it is crucial that global energy providers continue improving digitalization while also strengthening their networks (Booth et al., 2019). </div><br> 
+                         
+                     <h2>Reflection</h2><br>
+                     <div>The digital economy offers benefits like enhanced accessibility and efficiency, but it also poses cybersecurity challenges for brick and mortar and fully digital SMEs. Fully digital businesses face various cyber risks, including malware, phishing attacks, DoS assaults, and data breaches, which can result in financial loss, reputational damage, and legal consequences.</div><br>
+                     <div>References:</div><br>
+                      <div>Spremic, M., & Simunic, D. (2018). Cybersecurity Challenges of Small and Medium-sized Enterprises in the Digital Economy. Interdisciplinary Description of Complex Systems, 16(4-A), 384-394.</div>
+                      <div>Wei, H. L., Zhang, L., & Liang, X. (2019). A survey on security challenges of the digital economy. Future Generation Computer Systems, 92, 383-391.</div>
+                     <br> 
+                  <div></div>
+                 <br><br><br><br> 
+                </div>
+                    
+                 <div class="project">
+                 <h2>5- OWASP Top 10 and IEEE Top 10</h2><br> 
+                     <div>The OWASP Top 10 vulnerabilities list is a well-known document that outlines critical web application security risks. The latest version available is the OWASP Top 10 vulnerabilities 2021, which includes vulnerabilities such as injection, identification and authentication failures, cryptographic failures, and more. The list aims to raise awareness and provide guidance for mitigating these risks. As for the IEEE Top 10 vulnerabilities list for 2021, I don't have specific information on it.</div>
+                     <br> 
+                     <div>OWASP Top Ten Vulnerabilities</div><br>
+                     <div>A01:2021 – Broken Access Control</div>
+                     <div>A02:2021 – Cryptographic Failures</div>
+                     <div>A03:2021 – Injection</div>
+                     <div>A04:2021 – Insecure Design</div>
+                     <div>A05:2021 – Security Misconfiguration</div>
+                     <div>A06:2021 – Vulnerable and Outdated Components</div>
+                     <div>A07:2021 – Identification and Authentication Failures</div>
+                     <div>A08:2021 – Software and Data Integrity Failures</div>
+                     <div>A09:2021 – Security Logging and Monitoring Failures</div>
+                     <div>A10:2021 – Server-Side Request Forgery (SSRF)</div>
+                     <br>                       
+                     <h2>Reflection</h2>
+                  <div>Learning about top 10 Web Application Security Risks (OWASP) really broaden my horizon and I really learn more about security risk more then ever. On the other hand I could manage to find any information about IEEE top 10 vulnerabilities specifically but while searching about it I saw an article about IEEE top ten security design flaws which I learned a lot from.  <a href="https://sdtimes.com/cybersecurity/ieee-reveals-top-10-software-security-design-flaws-avoid/">Click here for article.</a> </div>
+                     <br>
+                     <div>Here is the IEEE Top Ten Software Security Design Flaws </div><br> 
+                     <div> Incorrect trust assumptions</div>
+                     <div>Broken authentication mechanisms</div>
+                     <div>Neglecting to authorize after authentication</div>
+                     <div>Lack of strict separation between data and control instructions</div>
+                     <div>Not explicitly validating all data</div>
+                     <div>Misuse of cryptography</div>
+                     <div>Failure to identify sensitive data and how they should be handled</div>
+                     <div>Failure to consider the user</div>
+                     <div>Failing to anticipate how integrating external components can open a vulnerability</div>
+                     <div>Brittleness in the face of future changes</div>
+                     <br><br><br><br> 
+                </div>
+                    
+                 <div class="project">
+                 <h2>6-Solar Winds Article</h2>
+                     <div>The SolarWinds article discusses a major cybersecurity breach where hackers compromised SolarWinds' software update process. They distributed a malicious update to customers, giving them unauthorized access to networks. The incident raised concerns about software supply chain security and highlighted the need for improved measures.</div>
+                     <br> 
+                     <div>Cyber Kill Chain Analysis for SolarWinds</div><br>
+                     <div><img src="images/solartab.png" alt="solarwindcyberkill" width="800" height="1000"></div>
+                     <h2>Reflection</h2>
+                  <div>When I read about the SolarWind strike, I was incredibly amazed by how perfectly the attack was planned and carried out while carefully considering every little aspect. If you ask me, it was a masterpiece. However, this attack demonstrated that there is always room for improvement, we shouldn't ever put a great deal of confidence in ourselves, and always implement the required security measurements.</div>
+                 <br><br><br><br> 
+                </div>
+                    
+                 <div class="project">
+                 <h2>7-Lab Activities</h2><br>
+                  <h3>A-Consulting a Vulnerability Database</h3><br>
+                     <div>To consult a vulnerability database, you'll learn to access a platform that collects and shares information about computer security vulnerabilities. Here are the steps</div><br> 
+                     <div><img src="images/71.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the address bar, type https://nvd.nist.gov/vuln/search </div><br>
+                     <div><img src="images/72.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the NVD - Search and Statistics window, scroll down, in the Keyword Search box, type stagefright and press Search.</div><br>
+                     <div><img src="images/73.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the NVD - Results window, from the Sort results by list, select Publish Date Ascending and click Sort.</div><br>
+                     <div><img src="images/74.png" alt="x" width="800" height="500"></div><br>
+                     <div>Select page number 2 from the page list and scroll down and open the CVE-2015-6602 link.</div><br>
+                     <div><img src="images/75.png" alt="x" width="800" height="500"></div><br>
+                     <div>Scroll down and under the References to Advisories, Solutions, and Tools section, click the second hyperlink.</div><br>
+                     <div><img src="images/76.png" alt="x" width="800" height="500"></div><br>
+                     <div>Observe what caused the vulnerabilities and how they affect the media files of Android</div><br>
+                     <br> 
+                    
+                     <h3>B-Identifying Search Options in Metasploit</h3><br>
+                     <div>Metasploit framework is a versatile tool utilized by both cybercriminals and ethical hackers to explore vulnerabilities in networks and servers. To find search options in Metasploit, follow these steps:</div><br> 
+                     <div><img src="images/ms1.png" alt="x" width="800" height="500"></div><br>
+                     <div>The command "service postgresql start" is used to initiate the PostgreSQL service, allowing it to begin running.</div><br>
+                     <div><img src="images/ms2.png" alt="x" width="800" height="500"></div><br>
+                     <div>The command "msfdb init" initializes the Metasploit Framework database, setting it up for use.</div><br>
+                     <div><img src="images/ms3.png" alt="x" width="800" height="500"></div><br>
+                     <div>The command "mfconsole search -h" is used to display the help menu and options for the search functionality in the Metasploit Framework console.</div><br>
+                     <div><img src="images/ms4.png" alt="x" width="800" height="500"></div><br>
+                     <div>The command "mfconsole search CVE-2013-2465" is used to search for information and exploits related to the specific CVE identifier in the Metasploit Framework console.</div><br>
+                 
+                     <h3>C-Analysing Protocols with Wireshark</h3><br>
+                     <div>In this Activity, we will learn to analyze protocols using Wireshark, an open-source tool for capturing and analyzing network traffic packets. Follow these steps:</div><br> 
+                     <div><img src="images/ap1.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the Wireshark Network Analyzer window, verify that Ethernet0 (eth0) interface is selected and then from the menu bar, click Capture and select Start.</div><br>
+                     <div><img src="images/ap2.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the Command Prompt window, execute the following command: ping 10.0.0.1</div><br>
+                     <div><img src="images/ap3.png" alt="x" width="800" height="500"></div><br>
+                     <div>From the menu bar, click Capture and select Stop.</div><br>
+                     <div><img src="images/ap4.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the Apply a display filter box, type icmp and click.</div><br>
+                     <div><img src="images/ap5.png" alt="x" width="800" height="500"></div><br>
+                     <div>View the details of the packets captured. Notice the packet with the destination 10.0.0.1</div><br>
+                  
+                     <h3>D-Confirming the Spoofing Attack in Wireshark</h3><br>
+                     <div>In this Activity, we will learn to detect and confirm spoofing attacks using Wireshark, a tool that captures and analyzes Internet Protocol (IP) packets. Spoofing involves modifying the source IP address to impersonate another system or conceal the sender's identity. Follow these steps:</div><br> 
+                     <div><img src="images/ap1.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the Wireshark Network Analyzer window, verify that Ethernet0 (eth0) interface is selected and then from the menu bar, click Capture and select Start.</div><br>
+                     <div><img src="images/sa1.png" alt="x" width="800" height="500"></div><br>
+                     <div>In the Command Prompt window, execute the following command: ping 8.8.8.8</div><br>
+                     <div><img src="images/sa2.png" alt="x" width="800" height="500"></div><br>
+                     <div>Observe the Info section and verify the list of ARP.</div><br>
+                  <br> 
+                 <h2>Reflection</h2>
+                 <div>The activities I explored, including consulting a vulnerability database, utilizing Metasploit's search options, analyzing protocols with Wireshark, and confirming spoofing attacks, provided an exciting and informative hands-on experience in the world of cybersecurity. From understanding vulnerabilities and their impact on systems to uncovering potential exploits, examining network traffic, and detecting security threats, these activities offered valuable insights into the complex and ever-evolving landscape of computer security. By engaging in these practical exercises, I gained a deeper understanding of the challenges and techniques involved in securing networks and systems, further fueling my passion for exploring the fascinating field of cybersecurity. However, while working on these activities, I encountered several problems related to other activities that I didn't include here. Most of these activities required additional files that I didn't have access to, but I tried my best!</div>
+                 <br><br><br><br>                      
+             </div>
+                    
+                    
+                 <div class="project">
+                 <h2>8-Cyber Security Challenges in Digital Economy</h2>
+                     <div>Spremić (2018) conducted a preliminary research on the management of cyber security in organizations associated with critical national infrastructure. The study focused on large companies in Croatia and aimed to evaluate the maturity and effectiveness of basic and advanced controls for mitigating cyber threats. The research involved a survey questionnaire and in-depth interviews with IT/cyber security experts from nine sampled companies. The findings indicated that these organizations have efficient basic organizational and technical controls in place to mitigate regular cyber threats. However, there were identified challenges related to employee awareness, education, technical skills, competent experts, and the effectiveness of preventive and detective controls. The research highlighted the importance of a more holistic and collective approach to cyber security management, emphasizing that it should be the responsibility of every employee and the ecosystem of the organization. The study also pointed out the need for increased adoption of advanced and sophisticated controls. Although this preliminary research had limitations due to the small sample size, it provides valuable insights for future studies on cyber security management in organizations associated with critical national infrastructure.</div><br> 
+                     <br>
+                     <h2>Reflection</h2><br>
+                     <div>Spremić's research reveals challenges in managing cyber security in Croatian organizations linked to critical infrastructure. It emphasizes the need for improved employee awareness, technical skills, and advanced measures, highlighting the importance of a holistic approach and further research.</div><br>
+                     <div>References:</div><br>
+                      <div>Spremić, M. (2018). Cyber Security Management in Organisations Associated with Critical National Infrastructure: A Preliminary Research. World Congress on Engineering 2018, Vol I, 1242-1247.</div>
+                     <br> 
+                 <br><br><br><br>                      
+             </div>
+                    
+                    
+              </div>
+              <div id="IOT">
+                 <h1>Internet of Things (IoT)</h1> 
+                 <h2>Introduction of IoT </h2>
+                 <div>IoT stands for the Internet of Things. It refers to a network of physical devices, vehicles, appliances, and other
+                     objects that are embedded with sensors, software, and connectivity, enabling them to collect and exchange data over 
+                     the internet. These devices can communicate with each other and with humans, creating a connected ecosystem that allows 
+                     for automation, remote monitoring, and control of various systems and processes. The goal of IoT is to enhance efficiency,
+                     improve decision-making, and enable new services and applications across various domains, such as smart homes, healthcare, 
+                     transportation, and industrial sectors. </div>
+                 <br><br><br><br>  
+                  
+                 <div class="project">
+                 <h2>1-Seminar About Arduino For Education by Mr. Ali ÜLKER </h2>
+                 <div><img src="images/semiot.jpg" alt="sem" width="800" height="1000"></div><br>
+                 <div>Arduino is an open-source electronics platform based on easy-to-use hardware and software. Arduino boards are able to read inputs - light on a sensor, a finger on a button, or a Twitter message - and turn it into an output </div>
+                 <br>
+                 <h3>List Activities Completed During The Seminar</h3><br>
+                <h4>A-Taffic Lights</h4><br>
+                <div><img src="images/trlight.png" alt="traffic" width="800" height="500"></div><br>
+                <div>A well-known Arduino project that may teach you the basics of managing time in your code and controlling LEDs is making a traffic light. Components you need; Arduino board, Breadboard, Three LEDs (red, yellow, and green), Three current-limiting resistors, Jumper wires</div><br>
+                <h4>B-Water/Rain Sensor</h4><br>
+                <div><img src="images/rainar.png" alt="rain" width="800" height="500"></div><br> 
+                <div>You may use Arduino to create a water sensor that can determine whether there is water around or not in a specific region. Components you need; Arduino board, Breadboard, Water sensor module, Jumper wires</div><br>  
+                <h4>C-LED light with button to turn on</h4><br>
+                <div><img src="images/turnonlight.png" alt="turnon" width="800" height="500"></div><br> 
+                <div>Arduino can be utilized to create an LED light that can be controlled using a button connected to the Arduino board.</div><br>  
+                <br> 
+                <h2>Reflection</h2>
+                <div>I gained a lot of knowledge about Arduino-based Internet of Things (IoT) development while listening to Mr. Ali. Learning about and using Arduino projects was a wonderfully rewarding experience. I considered the many opportunities that IoT devices presented while the seminar was going on. They are great tools for improving productivity and managing our lives more effectively.</div>
+                <br><br><br><br>    
+                </div>
+                
+                <div class="project">
+                 <h2>2-Best Elevator</h2>
+                 <div>Using IoT (Internet of Things) to solve problems involves leveraging connected devices and sensors to collect and analyze data in real-time, enabling intelligent decision-making and automation. IoT solutions can address various challenges by providing insights, optimizing processes, and enhancing efficiency. </div><br>
+                <div><img src="images/bestelev.png" alt="bestelev" width="800" height="1000"></div>
+                <br> 
+                <h2>Reflection</h2><br> 
+                <div>The Best Elevator project aims to increase customer loyalty, improve maintenance, manage spare parts inventory, enhance product design and technician training, optimize uptime and field service, allocate service technicians efficiently, and improve communication with suppliers. By utilizing IoT solutions, the company can achieve these objectives by leveraging real-time data analysis, proactive monitoring, optimized inventory management, insights for improvements, efficient resource allocation, and seamless communication with suppliers.</div><br>
+                <br><br><br><br>    
+                </div>
+                  
+                  
+                  
+    <div id="footer">
+        made on earth by a human <br><br> <a href="https://github.com/ism3t">ismet</a>
+    </div>
+<script src="script.js" type="text/javascript"></script>
+</body>
+</html>
